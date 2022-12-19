@@ -44,7 +44,7 @@ const NavBar = () => {
                                     Launch
                                 </Button>
 
-                                <Offcanvas show={show} onHide={handleClose}>
+                                <Offcanvas show={show} onHide={handleClose} className='sidenav_main'>
                                     <Offcanvas.Header closeButton>
                                         <Offcanvas.Title>Offcanvas</Offcanvas.Title>
                                     </Offcanvas.Header>
