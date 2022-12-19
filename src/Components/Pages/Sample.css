@@ -1,0 +1,7 @@
+.tbl_data{
+    width:40%;
+    margin: 150px auto;
+    height:60vh;
+    overflow-y: scroll;
+    padding: 2px solid lightgrey;
+}

@@ -1,0 +1,36 @@
+.cntr_main{
+    width: 50%;
+    margin:50px auto;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cntr_title h2{
+   color: red;
+   padding-bottom: 20px;
+}
+.cntr_disp{
+    padding: 20px 10px;
+}
+
+.cntr_btns{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.cntr_btns button{
+    border: none;
+    background-color:blue;
+    color: white;
+    padding: 10px 17px;
+}
+
+@media only screen and (max-width: 489px){
+    .cntr_btns{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+ }
