@@ -1,9 +1,26 @@
+
 .tbl_data{
-    width:40%;
+    width:80%;
     margin: 150px auto;
     height:60vh;
     overflow-y: scroll;
     padding: 2px solid lightgrey;
+}
+
+@media only screen and (max-width:768px){
+    .sam_container{
+        background-color: lightgray;
+        width: 100%;
+        min-height: 100vh;
+    }
+    .tbl_data{
+        width:80%;
+        margin:0px auto; 
+        border: 2px solid black;
+        position: relative;
+        top: 50px;
+        background-color: white;
+    }
 }
 
 @media only screen and (max-width: 489px){

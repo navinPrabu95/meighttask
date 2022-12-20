@@ -27,6 +27,7 @@ const SamplePage = () => {
     return (
         <div className='sam_container'>
             <div className='tbl_data'>
+                <h2>Sample Data From API</h2>
                 <Table striped bordered hover>
                     <thead>
                         <tr>

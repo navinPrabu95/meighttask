@@ -32,3 +32,35 @@
     width: 90%;
     margin: 30px auto;
 }
+
+@media only screen and (max-width:768px){
+    .form_signup{
+        width:80%;
+        margin:10px auto;
+        padding:10px 20px;
+    }
+    
+    .form_signin{
+        width: 80%;
+        margin: 100px auto;
+        padding:30px 10px;
+    }
+}
+
+@media only screen and (max-width: 489px){
+    .form_title{
+        width: 90%;
+        margin:5px auto;
+    }
+    .form_signup{
+        width:80%;
+        margin:10px auto;
+        padding:10px 20px;
+    }
+    
+    .form_signin{
+        width: 80%;
+        margin: 100px auto;
+        padding:30px 10px;
+    }
+}
