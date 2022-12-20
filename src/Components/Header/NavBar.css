@@ -22,7 +22,36 @@
 .sidenav{
     display: none;
 }
+@media only screen and (max-width: 768px){
 
+    .dropdown_list ul li span{
+     color: red;
+     font-size: 13px
+   }
+   .dropdown_list ul li p{
+     font-size: 10px;
+     margin-left: 10px;
+ }
+ .sidenav{
+     display: block;
+     position: absolute;
+     top:0;
+ }
+ .sidenav_list{
+     display: flex;
+     flex-direction: column;
+ }
+ .sidenav_list a{
+     text-decoration: none;
+     font-size:20px;
+     padding: 20px 10px;
+     color: brown;
+ }
+ .sidenav_main{
+     width:40%;
+     min-width: 300px;
+ }
+ }
 
 @media only screen and (max-width: 489px){
    .dropdown_list{

@@ -80,7 +80,7 @@ function Signup() {
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicPassword">
                             <Form.Label>Profession</Form.Label>
-                            <Form.Select aria-label="Default select example" name='profession' id="formInput" onChange={onChangeData}>
+                            <Form.Select aria-label="Default select example" name='profession' id="formInput" className='select_form' onChange={onChangeData}>
                                 <option>Select Proffession</option>
                                 {
                                     Proffession.map((val, i) => {
