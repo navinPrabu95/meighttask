@@ -14,7 +14,7 @@
 
 .form_signin{
     width: 40%;
-    margin: 150px auto;
+    margin: 100px auto;
     background-color: aqua;
     padding:50px 20px;
 }
@@ -42,7 +42,7 @@
     
     .form_signin{
         width: 80%;
-        margin: 100px auto;
+        margin:50px auto;
         padding:30px 10px;
     }
     .select_form option{
