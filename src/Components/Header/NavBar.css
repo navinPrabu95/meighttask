@@ -22,6 +22,7 @@
 .sidenav{
     display: none;
 }
+
 @media only screen and (max-width: 768px){
 
     .dropdown_list ul li span{
