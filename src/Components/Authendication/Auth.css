@@ -11,6 +11,7 @@
     padding:10px 20px;
     background: transparent;
     color: white;
+    animation:form_signin 2s ease-in-out ;
 }
 
 .form_signin{
@@ -19,6 +20,18 @@
     background: transparent;
     padding:50px 20px;
     color: white;
+    animation:form_signup 2s ease-in-out ;
+}
+@keyframes form_signup{
+    0%{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes form_signin{
+    0%{
+        transform: translateX(-100%);
+    }
 }
 
 .form_inputs{
