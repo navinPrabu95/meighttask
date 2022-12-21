@@ -36,13 +36,16 @@ function SignIn() {
     const submitData = (e) => {
         e.preventDefault()
         if(!inputData){
-            toast.error("You are not an existing user please signup")
+            toast.error("You are not an existing user please signup",
+            {position:toast.POSITION.TOP_CENTER,className: 'toast-message-error'})
         }else{
             if (inputData.name !== data.name) {
-                toast.error("Please enter correct name")
+                toast.error("Please enter correct name",
+                {position:toast.POSITION.TOP_CENTER,className: 'toast-message-error'})
             } else {
                 if (data.password !== inputData.password) {
-                    toast.error("Incorrect password")
+                    toast.error("Incorrect password",
+                    {position:toast.POSITION.TOP_CENTER,className: 'toast-message-error'})
                 } else {
                     reference()
                     localStorage.setItem('Items',JSON.stringify(data))

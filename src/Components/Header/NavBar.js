@@ -23,7 +23,7 @@ const NavBar = () => {
     }
 
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{ height: '100px' }}>
+        <Navbar collapseOnSelect expand="lg"  variant="dark" style={{ height: '100px',background:'black' }}>
             <Container>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={handleShow} />
                 <Navbar.Collapse id="responsive-navbar-nav">

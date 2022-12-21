@@ -1,10 +1,17 @@
+.sam_container{
+    width: 100%;
+    min-height: 100vh;
+}
 
 .tbl_data{
     width:80%;
-    margin: 150px auto;
+    margin:0px auto;
     height:60vh;
     overflow-y: scroll;
-    padding: 2px solid lightgrey;
+    border: 2px solid lightgrey;
+    position: relative;
+    top: 100px;
+    background-color:white;
 }
 
 @media only screen and (max-width:768px){

@@ -38,19 +38,21 @@ function Signup() {
 
         if (!reg.test(String(data.email))) {
 
-            toast.error("email error")
+            toast.error("Invalid Email Format",
+                    {position:toast.POSITION.TOP_CENTER,className: 'toast-message-error'})
 
         } else {
             const regPass = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[^\w\s]).{8,}$/
 
             if (!regPass.test(String(data.password))) {
-
-                toast.error("password characteristics failed")
+                toast.error("password characteristics failed",
+                    {position:toast.POSITION.TOP_CENTER,className: 'toast-message-error'})
 
             } else {
-                toast.success("SignUp sucessfully")
                 localStorage.setItem('inputData', JSON.stringify(data))
                 Navigate('/signin')
+                toast.success("User created sucessfully",
+                {position:toast.POSITION.TOP_CENTER,className: 'toast-message-sucess'})
             }
         }
         reference()
