@@ -1,17 +1,47 @@
 .sam_container{
     width: 100%;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .tbl_data{
-    width:80%;
+    width:90%;
     margin:0px auto;
-    height:60vh;
-    overflow-y: scroll;
-    border: 2px solid lightgrey;
-    position: relative;
-    top: 100px;
+    border: 1px solid lightgrey;
     background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height:80vh;
+    overflow-y: scroll;
+}
+.sam__list{
+   width:30%;
+   padding: 10px 2px; 
+   margin: 5px auto;
+}
+.sample__padination{
+    display: flex;
+    background-color: white;
+    width:90%;
+    margin:5px auto;
+}
+.sample__padination>span{
+    color: black;
+    width: 20%;
+    padding: 2px 5px;
+    font-size: 20px;
+    border: 1px solid blue;
+    text-align: center;
+}
+.sample__padination>span:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.btn__inv{
+    display: none;
 }
 
 @media only screen and (max-width:768px){
